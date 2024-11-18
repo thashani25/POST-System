@@ -4,7 +4,7 @@
     <div class="card mt-4 shadow-sm">
         <div class="card-header">
             <h4 class="mb-0">Edit Category
-                <a href="categories.php" class="btn btn-primary float-end">Back</a>
+                <a href="categories.php" class="btn btn-danger float-end">Back</a>
             </h4>
         </div>
         <div class="card-body">
@@ -27,7 +27,7 @@
 
                 <div class="row">
                     <div class="col-md-12 mb-3">
-                        <label for="">Name *</label>
+                        <label for="">Name</label>
                         <input type="text" name="name" value="<?= $category['data']['name']; ?>" required class="form-control" />
                     </div>
                 </div>

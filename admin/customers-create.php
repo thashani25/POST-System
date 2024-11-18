@@ -4,8 +4,8 @@
 <div class="container-fluid px-4">
      <div class="card mt-4 shadow-sm">
      <div class="card-header">
-        <h4 class="mb-0">Add Category
-            <a href="categories.php" class="btn btn-primary float-end">Back</a>
+        <h4 class="mb-0"> Add Customer
+            <a href="customers.php" class="btn btn-danger float-end">Back</a>
          </h4>
     </div>
     <div class="card-body">
@@ -16,13 +16,18 @@
 
           <div class="row">
             <div class="col-md-12 mb-3">
-               <label for=""> Name *</lable>
+               <label for=""> Name </lable>
                <input type="text" name="name" required class="form-control" />
             </div>
             <div class="col-md-12 mb-3">
-               <label for="">Description</lable>
-               <textarea name="description" class="form-control" row="3"></textarea>
+               <label for=""> Email Id </lable>
+               <input type="email" name="email"  class="form-control" />
             </div>
+            <div class="col-md-12 mb-3">
+               <label for=""> Phone </lable>
+               <input type="number" name="phone" required class="form-control" />
+            </div>
+        
             <div class="col-md-6">
                 <lable>Status (UnChecked=Visible, Checked=Hidden)</lable>
                 </br>
@@ -31,9 +36,9 @@
 
             <div class="col-md-6 mb-3 text-end">
 </br>
-            <button type="submit" name="saveCategory" class="btn btn-primary">Save</button>
+            <button type="submit" name="saveCustome" class="btn btn-primary">Save</button>
             </div>
-
+r
             </div>
           </form>
 

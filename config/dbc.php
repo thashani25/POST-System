@@ -3,7 +3,7 @@
 $servername = "localhost";  // Replace with your server name if different
 $username = "root";         // Replace with your MySQL username
 $password = "";             // Replace with your MySQL password
-$dbname = "post_php";  // Replace with your actual database name
+$dbname = "post_php23";  // Replace with your actual database name
 
 // Enable or disable debug mode
 $debug = false; // Set to true during development to see debug messages
